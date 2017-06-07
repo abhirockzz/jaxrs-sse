@@ -1,0 +1,3 @@
+FROM abhirockzz/gf5-b-8
+ENV WAR jaxrs-sse.war
+COPY target/${WAR} ${DEPLOYMENT_DIR}
