@@ -8,3 +8,7 @@
 - `http://<docker_ip>:8080/jaxrs-sse/events/subscribe`. You should see a continuous stream of (SSE) events
 
 ![](jaxrs-sse.jpg)
+
+## Shortcut
+
+I have pushed a ready-to-use to [Docker Hub](https://hub.docker.com/r/abhirockzz/gf5-b-8-jaxrs-example/), so you can also directly execute `docker run --rm -t -p 8080:8080 -p 4848:4848 -p 8181:8181 abhirockzz/gf5-b-8-jaxrs-example` and it will pull the image directly from Hub
